@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="sitecarla.css" rel="stylesheet"> 
+   <title>joyeux noël ma carla !</title>
+  </head>
+  <body>
+    <div id="lockscreen">
+  <div class="lock-content">
+    <h2>Entre le code 💌<br>date (**/**/****)😋</h2>
+    <input type="password" id="code" placeholder="Code secret">
+    <button onclick="checkCode()">Entrer</button>
+    <p id="error"></p>
+  </div>
+</div>
+    <div class="box">
+      <p id="lettre-btn1">Coucou ma chérie j'écris ce message pour toi, pour te dire à quel point je t'aime ❤️ je pense pas avoir besoin de te rappeler notre situation actuelle mais je voulais souligner le fait que malgré ça, mes sentiments pour toi restent sincères et plus forts de jours en jours ❤️ je t'aime plus que tout je te considère comme la future mère de mes enfants mais je veux pas parler de ça car je me suis rendu compte que ma plus grande erreur à été de trop penser au futur et de ne pas profiter du présent. Je te disais "il faudra que tu changes pour plus tard" etc ce qui te mettait une pression constante. Je t'aime sincèrement je veux que tu le saches Carla ❤️ je t'aime je veux un avenir avec toi je me vois pas avec quelqu'un d'autre. Cette lettre et ce site c'est en quelques sortes l'aboutissement de mon amour pour toi, j'ai travaillé un mois entier en partant de 0, 0 bases rien je connaissais rien du code et j'ai tout appris dans le but de te montrer à quel point je t'aime. J'espère que ça suffira à te prouver ma détermination pour nous et à te faire sourire ❤️ je t'aime sincèrement Carla ❤️</p>
+      <button id=ferme-btn1 onclick="
+  document.getElementById('lettre-btn1').style.display = 'none';
+  document.getElementById('ferme-btn1').style.display = 'none';
+">X</button>
+     <center><FONT size=2pt><h1 id="titre" style="background-color: #E02787; color :white; padding: 16px 32px; border-radius: 40px; border: 2PX solid black; position: fixed; margin-top: 1px; margin-left: 30px;">𝐔𝐧 𝐬𝐢𝐭𝐞 𝐩𝐨𝐮𝐫 𝐭𝐨𝐢 ❤</h1></FONT></center>
+     <div>
+     <center><button id="btn-1" <button onclick="
+  const el1 = document.getElementById('lettre-btn1'); // élément 1
+  const el2 = document.getElementById('ferme-btn1'); // élément 2
+
+  el1.style.display = el1.style.display === 'none' ? 'block' : 'none'; // toggle 1
+  el2.style.display = el2.style.display === 'none' ? 'block' : 'none'; // toggle 2">𝓤𝓷𝓮 𝓵𝓮𝓽𝓽𝓻𝓮 𝓹𝓸𝓾𝓻 𝓽𝓸𝓲 ✉❤</button></center>
+     <br>
+     </div>
+     <div class="image-scroll-container">
+       <img src="https://i.postimg.cc/tCjjYSjL/IMG-20251127-194116.png" class="scrollable-image"> <!--hebergeur Postimages-->
+       </div>
+    <div class="carousel">
+    <div class="boxmusic">
+    <p class="pmusic">j'espère que j'ai bien choisi la musique je comprends pas grand chose aux paroles mais bon vu qu'il dit amor je suppose que c'est une chanson adaptée pour ce que je voulais 😓🙏</p>
+    <audio id="musique">
+      <source src="https://foldr.space/d/Amor.mp3" type="audio/mp3"> <!--site foldr space musoque amor "Amor-Alta Elegancia"-->
+    </audio>
+    <center><button id="btn-2" onclick="
+    const m = document.getElementById('musique');
+    if (m.paused) { 
+        m.play(); 
+    } else { 
+        m.pause(); 
+    }
+     if (musique2.play){
+        musique2.pause();}
+      if (musique3.play){
+        musique3.pause();}
+">
+   ♬ Amor-Alta Elegancia ♬
+   </button><br></center>
+   </div>
+   <div class="boxmusic">
+    <p class="pmusic">j'avais vu cette musique avant mais j'etais pas sûr des paroles mais tu m'as dit que ça parlait de Madère donc j'espere que ça te plaira pck je comprend encore rien aux paroles 🥹🙏</p>
+     <audio id="musique2">
+      <source src="https://foldr.space/d/NAPA%20-%20Deslocado%20(Lyrics).mp3" type="audio/mp3"> <!--site foldr space musique descolado napa-->
+    </audio>
+    <center><button id="btn-3" onclick="
+    const m = document.getElementById('musique2');
+    if (m.paused) { 
+        m.play(); 
+    } else { 
+        m.pause(); 
+    }
+     if (musique.play){
+        musique.pause();}
+        if (musique3.play){
+        musique3.pause();}
+">
+   ♬ Descolado-napa ♬
+   </button><br></center></div>
+   <div class="boxmusic">
+    <p class="pmusic">bon 💀 jpense que j'ai pas besoin de me repeter mais plus j'ajoute de musique moins je comprends les paroles 🥹🙏 bref choisis la musique tu preferes et profite Carla je t'aime fort</p>
+     <audio id="musique3">
+      <source src="https://foldr.space/d/Baby%20Donde%20Estas%20(Letra%20%20Lyrics)%20-%20AzLoveAce.mp3"> <!--site foldr space musique baby donde estas-->
+    </audio>
+    <center><button id="btn-4" onclick="
+    const m = document.getElementById('musique3');
+    if (m.paused) { 
+        m.play(); 
+    } else { 
+        m.pause(); 
+    }
+     if (musique.play){
+        musique.pause();}
+    if (musique2.play){
+        musique2.pause();}
+">
+   ♬ Baby Donde Estas-AzLoveAce ♬
+   </button><br></center></div>
+   </div>
+   <center><button id="txtbouquet1"><p>↓ regarde en dessous ↓</p></button></center>
+   <center><button id="txtbouquet2"><p>attrape toutes les fleurs !!</p></button></center>
+   <center><button id="fleur1" onclick="
+   const fleur1 = document.getElementById('fleur1'); // élément f1
+   const fleur2 = document.getElementById('fleur2'); // élément f2
+
+  fleur1.style.display = fleur1.style.display === 'none' ? 'block' : 'none'; // toggle 1
+  fleur2.style.display = fleur2.style.display === 'block' ? 'none' : 'block'; // toggle 1">
+     <img src="https://media.istockphoto.com/id/1300028401/fr/photo/peu-de-brindilles-avec-de-petites-fleurs-blanches-de-tsigane-isol%C3%A9es-sur-fond-blanc.jpg?s=612x612&w=0&k=20&c=THhl_E7HBvksGKozW0y-UGTda9OrpwQ8HqX1-ab44Xk=" height="25%" width="50%" style=" border-radius: 20px; margin: 10px;"></button></center>
+     <center><button class="fleurs" id="fleur2" onclick="
+   const fleur2 = document.getElementById('fleur2'); // élément f2
+   const fleur3 = document.getElementById('fleur3'); // élément f3
+
+  fleur2.style.display = fleur2.style.display === 'none' ? 'block' : 'none'; // toggle 1
+  fleur3.style.display = fleur3.style.display === 'block' ? 'none' : 'block'; // toggle 1">
+     <img src="https://bubblesplastics.co.za/cdn/shop/files/PhotoRoom-20240124-202552-1_2048x.png?v=1707328105" height="25%" width="50%" style=" border-radius: 20px; margin: 10px;"></button></center>
+     <center><button class="fleurs" id="fleur3" onclick="
+   const fleur3 = document.getElementById('fleur3'); // élément f3
+   const fleur4 = document.getElementById('fleur4'); // élément f4
+
+  fleur3.style.display = fleur3.style.display === 'none' ? 'block' : 'none'; // toggle 1
+  fleur4.style.display = fleur4.style.display === 'block' ? 'none' : 'block'; // toggle 1">
+     <img src="https://cdn.ecommercedns.uk/files/2/236502/9/51218309/main-png.jpg" height="25%" width="50%" style=" border-radius: 20px; margin: 10px;"></button></center>
+     <center><button class="fleurs" id="fleur4" onclick="
+   const fleur4 = document.getElementById('fleur4'); // élément f4
+   const fleur5 = document.getElementById('fleur5'); // élément f5
+
+  fleur4.style.display = fleur4.style.display === 'none' ? 'block' : 'none'; // toggle 1
+  fleur5.style.display = fleur5.style.display === 'block' ? 'none' : 'block'; // toggle 1">
+     <img src="https://www.reneveyrat.fr/629-large_default2x/roses-a-l-unite-royale.jpg" height="25%" width="50%" style=" border-radius: 20px; margin: 10px;"></button></center>
+     <center><button class="fleurs" id="fleur5" onclick="
+   const fleur5 = document.getElementById('fleur5'); // élément f5
+   const fleur6 = document.getElementById('fleur6'); // élément f6
+
+  fleur5.style.display = fleur5.style.display === 'none' ? 'block' : 'none'; // toggle 1
+  fleur6.style.display = fleur6.style.display === 'block' ? 'none' : 'block'; // toggle 1"><!--cest pas vraiment fleur c'est ficelle-->
+     <img src="https://static.mapetitemercerie.com/71327-thickbox_default/ficelle-lin-1-mm-x-1m.jpg" height="25%" width="50%" style=" border-radius: 20px; margin: 10px;"></button></center>
+     <center><button class="fleurs" id="fleur6" onclick="
+   const fleur6 = document.getElementById('fleur6'); // élément f6
+   const fleur7 = document.getElementById('fleur7'); // élément f7
+   const txtbouquet2 = document.getElementById('txtbouquet2'); // élément txtbouquet2
+
+  fleur6.style.display = fleur6.style.display === 'none' ? 'block' : 'none'; // toggle 1
+  fleur7.style.display = fleur7.style.display === 'block' ? 'none' : 'block'; // toggle 1
+  txtbouquet2.style.display = txtbouquet2.style.display === 'none' ? 'block' : 'none'; // toggle 1"><!--cest pas vraiment fleur c'est le cornet dembalage-->
+     <img src="https://media.istockphoto.com/id/1352509266/fr/photo/cornet-demballage-en-papier-artisanal-vide-attach%C3%A9-avec-un-ruban-de-toile-beige-isol%C3%A9.jpg?s=612x612&w=0&k=20&c=eTG6uM5bSdXafU3fcIR7YX8qGIg0O5cFhWFWlVMhWZg=" height="25%" width="50%" style=" border-radius: 20px; margin: 10px;"></button></center>
+     <center><button class="fleurs" id="fleur7" onclick="
+   const txtbouquet = document.getElementById('txtbouquet'); // élément txtbouquet
+   const txtbouquet1 = document.getElementById('txtbouquet1'); // élément txtbouquet1
+
+  txtbouquet.style.display = txtbouquet.style.display === 'none' ? 'block' : 'none'; // toggle 1
+  txtbouquet1.style.display = txtbouquet1.style.display === 'none' ? 'block' : 'none'; // toggle 1"><!--cest pas vraiment fleur c'est le texte du bouquet-->
+     <img src="https://boulevard-des-fleurs.fr/395-large_default/bouquet-tendre-amour.jpg" height="25%" width="50%" style=" border-radius: 20px; margin: 10px;"></button></center>
+     <button id="txtbouquet"><p>un petit bouquet pour toi ma chérie je t'aime fort j'espère qu'il te plaira ❤️❤️ j'aimerais pouvoir te l'offrir dans la vraie vie mais malheureusement je ne pourrai pas 😓 je suis fou amoureux de toi carla j'espère que ce site a été à la hauteur de mon amour pour toi et qu'il t'a fait sourire malgré le fait qu'il soit pas dingue😓
+     Je m'attendais à faire un peu mieux alors je suis un peu déçu de moi mais bon je t'aime alors c'est le principal non ? 🥰🥰❤️❤️❤️❤️❤️❤️❤️</p></button>
+     <center><button id="btn-fin" onclick="
+  let x = document.getElementById('lettre-fin');
+  if (x.style.display === 'none') {
+    x.style.display = 'block';
+  } else {
+    x.style.display = 'none';
+  }
+">
+  𝒑𝒐𝒖𝒓 𝒇𝒊𝒏𝒊𝒓 𝒗𝒐𝒊𝒄𝒊 𝒖𝒏𝒆 𝟐𝒆 𝒍𝒆𝒕𝒕𝒓𝒆 ❤️
+ </button></center>
+<center><p id="lettre-fin"><span class="popup-content">Salut bah petit message pour la fin heuu
+D'abord j'espère que ça t'a plu, j'aurais aimé faire mieux mais j'ai eu du mal à continuer avec tout ce qui se passait. La lettre du début donne l'impression que je l'ai écrite à la fin mais c'est pas vraiment le cas je l'ai plutôt écrite au tout début en parlant comme si j'avais fini. Malheureusement jsuis pas arrivé à la hauteur de mes attentes simplement parce que mentalement jsuis passé par plusieurs phases qui ne m'ont pas trop motivé à continuer (jpense pas avoir besoin de te les citer ) donc voilà c'est une fin un peu précipitée j'avais encore quelques idées que j'aurais pas le temps de faire alors j'espère qu'on refera comme on l'a déjà fait c'est à dire créer un site ensemble. jdois t'avouer que je suis pas mal déçu je considérais ça comme mon dernier moyen de te récupérer, depuis des choses ont changées comme le fait que tu m'as avoué que tu m'avais quitté pour mon bien, ça me donne un peu plus d'espoir vis à vis de nous deux. En perdant ce "titre" de couple j'ai pas mal perdu franchement entre ma joie de vivre mon sourire et ma confiance en moi j'espère que toi de ton côté ça t'a été bénéfique et que tu as pu prendre du recul ❤️
+bref bah pour finir je sais pas trop quoi dire à part que j'espère sincèrement que t'accepteras d'être ma copine à nouveau parce que sincèrement je vois pas trop l'intérêt de la situation actuelle 😓 et j'espère aussi que l'avenir nous réserve quelque chose de beau. J'espère pouvoir repasser du temps avec toi en riant sans voir le temps passer j'espère pouvoir me projeter et m'imaginer avec toi pour toujours car je t'aime sincèrement. Je pense que maintenant la décision dépend de toi parce que tu connais déjà mon avis sur la question, tu sais ce que je pense, tu sais ce que je veux. Je ne veux pas te forcer c'est pour ça que je te laisserai faire les premiers pas plus souvent.
+À l'heure où j'écris cette lettre on est le 23 décembre à 12h47 précisément et je ne t'ai encore envoyé aucun message car je voudrais que tu viennes vers moi plus souvent. 
+Bref je vais finir sur du positif Carla je t'aime et j'espère que ce cadeau t'aura plus malgré la fin quelque peu sombre (jme retiens de pleurer un peu) j'avais besoin de te dire tout ça et bahh j'espère recevoir ton appel quand t'auras fini de lire ça (si on est pas déjà en appel)
+
+Voilà j'espère que ça t'a plu je t'aime fort et je vais te le demander une dernière fois, Carla, mon premier amour, l'amour de ma vie, veux-tu, à nouveau, être ma copine ? ❤️</span></p></center>
+   </div>
+   <script>
+function checkCode() {
+    const input = document.getElementById("code").value;
+    const correctCode = "14/07/2024"; // change ton code ici
+
+    if (input === correctCode) {
+        document.getElementById("lockscreen").style.display = "none";
+        document.body.style.overflow = "auto"; // réactive le scroll
+    } else {
+        document.getElementById("error").textContent = "COMMENT TU RATES ÇA 💔";
+    }
+}
+
+// bloque le scroll tant que le code n’est pas entré
+document.body.style.overflow = "hidden";
+</script>
+  </body>
+</html>
